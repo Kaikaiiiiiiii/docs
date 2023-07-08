@@ -9,7 +9,7 @@ hero:
   name: "SwanHub"
   text: "创新的 AI 开源社区"
   tagline: 从这里开始
-  iamge:
+  image:
     src: /logo.png
     alt: SwanHub
   actions:
