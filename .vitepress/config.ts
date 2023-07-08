@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Documentation for SwanHub",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.png',
+    logo: './src/public/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
