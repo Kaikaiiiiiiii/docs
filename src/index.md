@@ -15,19 +15,35 @@ hero:
   actions:
     - theme: brand
       text: Start
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      link: /guide/
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/BlackSwanXDU/docs
 
 features:
-  - title: 可视化 Demo
+  - icon: 💡
+    title: 可视化 Demo
     details: 在 BlackSwan 上可以一键完成代码到可视化应用的过程。
-  - title: 大模型文件托管
+  - icon: ⚡️
+    title: 大模型文件托管
     details: 支持 Git LFS，让版本协同不再受制于文件大小。
-  - title: 搭建桥梁
+  - icon: 🛠️
+    title: 搭建桥梁
     details: 从 AI 研究者到工程者、产品经理、用户、项目经理之间建立一个实时的桥梁。
 ---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #51a0ff, #535bf2);
+}
+:root {
+  --vp-c-brand: #51a0ff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-lighter: #9499ff;
+  --vp-c-brand-lightest: #bcc0ff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-c-brand-darker: #454ce1;
+  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
+}
+</style>
