@@ -2,10 +2,16 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: SawnHub Docs
+titleTemplate: SwanHub
+
 hero:
   name: "SwanHub"
   text: "创新的 AI 开源社区"
   tagline: 从这里开始
+  iamge:
+    src: /logo.png
+    alt: SwanHub
   actions:
     - theme: brand
       text: Start

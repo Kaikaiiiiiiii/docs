@@ -6,7 +6,8 @@ export default defineConfig({
   description: "Documentation for SwanHub",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: './src/public/logo.svg',
+    logo: '/logo.svg',  // 实际文件路径是 /src/public/logo.svg
+    siteTitle: 'SwanHub 官方文档',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -15,6 +16,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Examples',
+        collapsed: true,
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
